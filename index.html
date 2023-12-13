@@ -7,7 +7,42 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="header">
+      <div class="header-left">
+        <img class="weather-icon large" src="icons/sun-solid.svg" alt="sun icon" data-current-icon>
+        <div class="header-current-temp">
+          <span data-current-temp>31</span>&deg;
+        </div>
+      </div>
+      <div class="header-right"></div>
+      <div class="info-group">
+        <div class="label">High</div>
+        <div><span data-current-high>32</span>&deg;</div>
+
+        <div class="info-group">
+          <div class="label">FL High</div>
+          <div><span data-current-fl-high>27</span>&deg;</div>
+
+          <div class="info-group">
+            <div class="label">WIND</div>
+            <div><span data-current-wind>9</span>m/s</div>
+
+            <div class="info-group">
+              <div class="label">Low</div>
+              <div><span data-current-low>19</span>&deg;</div>
+
+              <div class="info-group">
+                <div class="label">FL Low</div>
+                <div><span data-current-fl-low>12</span>&deg;</div>
+
+                <div class="info-group">
+                  <div class="label">Precip</div>
+                  <div><span data-current-precip>0.1</span>in</div>
+
+      </div>
+    </header>
+
+
     <script type="module" src="src/ts/main.ts"></script>
   </body>
 </html>
