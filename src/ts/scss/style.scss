@@ -92,3 +92,21 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5rem;
 }
+
+.hour-section {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.hour-row {
+  background-color:rgb(171, 203, 222);
+}
+
+.hour-row:nth-child(2n) {
+  background-color:rgb(96, 133, 155);
+}
+
+.hour-row > td {
+  padding: 0.25rem 0.5rem;
+}
