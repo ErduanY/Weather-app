@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
+  <body class="blurred">
     <header class="header">
       <div class="header-left">
         <img class="weather-icon large" src="icons/sun-solid.svg" alt="sun icon" data-current-icon>
@@ -555,7 +555,7 @@
 
     <template id="day-card-template">
       <div class="day-card">
-        <img data-icon class="weather-icon">
+        <img data-icon class="weather-icon" />
         <div class="day-card-day" data-date></div>
         <div><span data-temp></span><span>&deg;</span></div>
       </div>
